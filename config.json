@@ -1,0 +1,16 @@
+{
+    "signalized_intersections": {
+        "S1": {
+            "name": "Madison Square Boulevard and Murfreesboro Road",
+            "id": "91c36924-5605-419a-b0a6-39263f65a209"
+        },
+        "S2": {
+            "name": "Stones River Road and Murfreesboro Road",
+            "id": "5f86c875-bedc-4fde-a146-fe7ee3320211"
+        },
+        "S3": {
+            "name": "Floyd Mayfield Drive and Murfreesboro Pike",
+            "id": "86d74412-50ce-4ea9-bb8d-04d25650246c"
+        }
+    }
+} 

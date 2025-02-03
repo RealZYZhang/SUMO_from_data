@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-01-11 21:51:05 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="S1-S-in1 S1-S-in S1-N-out"/>
+    <route id="r_1" edges="S1-N-in S1-S-out"/>
+    <route id="r_10" edges="S1-W-in2 S1-W-in1 S1-W-in S1-N-out"/>
+    <route id="r_11" edges="S1-W-in2 S1-W-in1 S1-W-in S1-S-out"/>
+    <route id="r_12" edges="S1-W-in2 S1-W-in1 S1-W-in S1-E-out S2-W-in S2-N-out S2-N-out-2"/>
+    <route id="r_13" edges="S1-S-in1 S1-S-in S1-E-out S2-W-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-E-out"/>
+    <route id="r_14" edges="S1-W-in2 S1-W-in1 S1-W-in S1-E-out S2-W-in S2-S-out"/>
+    <route id="r_15" edges="S1-S-in1 S1-S-in S1-E-out S2-W-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-S-out"/>
+    <route id="r_16" edges="-1118575326#0 -1118575326#0.67 S2-N-in S2-S-out"/>
+    <route id="r_17" edges="S2-S-in S2-N-out S2-N-out-2"/>
+    <route id="r_18" edges="S2-S-in S2-W-out S1-E-in S1-N-out"/>
+    <route id="r_19" edges="S2-S-in S2-W-out S1-E-in S1-W-out"/>
+    <route id="r_2" edges="S1-N-in S1-W-out"/>
+    <route id="r_20" edges="-1118575326#0 -1118575326#0.67 S2-N-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-S-out"/>
+    <route id="r_21" edges="S2-S-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-S-out"/>
+    <route id="r_22" edges="-1118575326#0 -1118575326#0.67 S2-N-in S2-W-out S1-E-in S1-W-out"/>
+    <route id="r_23" edges="-1118575326#0 -1118575326#0.67 S2-N-in S2-W-out S1-E-in S1-S-out"/>
+    <route id="r_24" edges="S2-S-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-E-out"/>
+    <route id="r_25" edges="S1-W-in2 S1-W-in1 S1-W-in S1-E-out S2-W-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-S-out"/>
+    <route id="r_26" edges="244894334#1 S3-S-in S3-E-out"/>
+    <route id="r_27" edges="244894334#1 S3-S-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-N-out S2-N-out-2"/>
+    <route id="r_28" edges="244894334#1 S3-S-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-S-out"/>
+    <route id="r_29" edges="244894334#1 S3-S-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-W-out S1-E-in S1-N-out"/>
+    <route id="r_3" edges="S1-N-in S1-E-out S2-W-in S2-N-out S2-N-out-2"/>
+    <route id="r_30" edges="244894334#1 S3-S-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-S-out"/>
+    <route id="r_31" edges="244894334#1 S3-S-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-W-out S1-E-in S1-N-out"/>
+    <route id="r_32" edges="244894334#1 S3-S-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-W-out S1-E-in S1-S-out"/>
+    <route id="r_33" edges="244894334#1 S3-S-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-W-out S1-E-in S1-W-out"/>
+    <route id="r_34" edges="S3-E-in S3-S-out"/>
+    <route id="r_35" edges="S3-E-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-S-out"/>
+    <route id="r_36" edges="S3-E-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-W-out S1-E-in S1-N-out"/>
+    <route id="r_37" edges="S3-E-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-W-out S1-E-in S1-S-out"/>
+    <route id="r_38" edges="S3-E-in S3-N-out S3-W-out-2 1027351045#1 S2-E-in-2 S2-E-in S2-W-out S1-E-in S1-W-out"/>
+    <route id="r_4" edges="S1-N-in S1-E-out S2-W-in S2-S-out"/>
+    <route id="r_5" edges="S1-W-in2 S1-W-in1 S1-W-in S1-E-out S2-W-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-E-out"/>
+    <route id="r_6" edges="S1-S-in S1-W-out"/>
+    <route id="r_7" edges="S1-S-in S1-E-out S2-W-in S2-N-out S2-N-out-2"/>
+    <route id="r_8" edges="S1-W-in2 S1-W-in1 S1-W-in S1-E-out S2-W-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-S-out"/>
+    <route id="r_9" edges="S1-N-in S1-E-out S2-W-in S2-E-out 276926368#1 276926368#2 S3-N-in S3-S-out"/>
+</routes>
