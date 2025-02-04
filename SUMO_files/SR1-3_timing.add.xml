@@ -173,7 +173,7 @@
     <tlLogic id="S3" type="static" programID="off">
     </tlLogic>
 
-	<WAUT refTime="0" period="86400" id="S1" startProg="off">
+	<WAUT refTime="0" period="86400" id="S1-weekday" startProg="off">
     <wautSwitch time="18000" to="1"/>    <!-- 5am, am peak -->
     <wautSwitch time="32400" to="2"/>  <!--	9am, midday -->
     <wautSwitch time="45000" to="3"/>   <!-- 12:30pm, school -->
@@ -182,10 +182,20 @@
 	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
 	</WAUT>
 
-  	<wautJunction junctionID="S1" wautID="S1">
+    <WAUT refTime="0" period="86400" id="S1-SAT" startProg="off">
+    <wautSwitch time="25200" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S1-SUN" startProg="off">
+    <wautSwitch time="28800" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="75600" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+  	<wautJunction junctionID="S1" wautID="S1-weekday">
 	</wautJunction>
 
-	<WAUT refTime="0" period="86400" id="S2" startProg="off">
+	<WAUT refTime="0" period="86400" id="S2-weekday" startProg="off">
     <wautSwitch time="21600" to="1"/>    <!-- 6am, am peak -->
     <wautSwitch time="32400" to="2"/>  <!--	9am, midday -->
     <wautSwitch time="45000" to="3"/>   <!-- 12:30pm, school -->
@@ -194,10 +204,20 @@
 	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
 	</WAUT>
 
-	<wautJunction junctionID="S2" wautID="S2">
+    <WAUT refTime="0" period="86400" id="S2-SAT" startProg="off">
+    <wautSwitch time="25200" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S2-SUN" startProg="off">
+    <wautSwitch time="28800" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="75600" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+	<wautJunction junctionID="S2" wautID="S2-weekday">
 	</wautJunction>
 
-	<WAUT refTime="0" period="86400" id="S3" startProg="off">
+	<WAUT refTime="0" period="86400" id="S3-weekday" startProg="off">
     <wautSwitch time="21600" to="1"/>    <!-- 6am, am peak -->
     <wautSwitch time="32400" to="2"/>  <!--	9am, midday -->
     <wautSwitch time="45000" to="3"/>   <!-- 12:30pm, school -->
@@ -206,7 +226,17 @@
 	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
 	</WAUT>
 
-	<wautJunction junctionID="S3" wautID="S3">
+    <WAUT refTime="0" period="86400" id="S3-SAT" startProg="off">
+    <wautSwitch time="25200" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S3-SUN" startProg="off">
+    <wautSwitch time="28800" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="75600" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+	<wautJunction junctionID="S3" wautID="S3-weekday">
 	</wautJunction>
 
 </additional>
