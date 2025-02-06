@@ -93,8 +93,8 @@ The simulation is configured through `SR1-3.sumocfg`, which specifies:
 - `SR1-3_timing.add.xml`: Traffic signal timing plans
 
 ### Output Files
-- `SR1-3-output-stats.xml`: Simulation statistics including:
+- `SR1-3-output-stats.xml`: Traffic performance matric including:
   - Vehicle counts
-  - Travel times
-  - Traffic flow metrics
-  - Safety statistics
+  - Average speed
+  - Wait time and travel time
+  - Departure delay
