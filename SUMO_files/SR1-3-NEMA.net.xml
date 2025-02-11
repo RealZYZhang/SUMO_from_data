@@ -750,7 +750,7 @@
         <param key="ring1" value="1,2,3,4"/>
         <param key="ring2" value="5,6,7,8"/>
         <param key="show-detectors" value="true"/>
-        <param key="total-cycle-length" value="140"/>
+        <param key="total-cycle-length" value="110"/>
     </tlLogic>
     <tlLogic id="S2" type="NEMA" programID="2" offset="109">
         <phase duration="90" state="rrrrrrrrrrrrrGG" minDur="5" maxDur="7" vehext="4" yellow="4" red="4" name="1"/>
