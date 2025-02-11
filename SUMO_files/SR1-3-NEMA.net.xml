@@ -723,7 +723,7 @@
         <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="11.50" vehext="4" yellow="4.50" red="4" name="6"/>
         <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="9.50" vehext="4" yellow="3" red="2.50" name="7"/>
         <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="12.50" vehext="4" yellow="4" red="3.50" name="8"/>
-        <param key="barrier2Phases" value="6"/>
+        <param key="barrier2Phases" value="2,6"/>
         <param key="barrierPhases" value="4,8"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
@@ -742,7 +742,7 @@
         <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="6.50" vehext="4" yellow="4.50" red="4" name="6"/>
         <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="9.50" vehext="4" yellow="3" red="2.50" name="7"/>
         <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="13.50" vehext="4" yellow="4" red="3.50" name="8"/>
-        <param key="barrier2Phases" value="6"/>
+        <param key="barrier2Phases" value="2,6"/>
         <param key="barrierPhases" value="4,8"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
@@ -761,7 +761,7 @@
         <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="9.50" vehext="4" yellow="4.50" red="4" name="6"/>
         <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="11.50" vehext="4" yellow="3" red="2.50" name="7"/>
         <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="17.50" vehext="4" yellow="4" red="3.50" name="8"/>
-        <param key="barrier2Phases" value="6"/>
+        <param key="barrier2Phases" value="2,6"/>
         <param key="barrierPhases" value="4,8"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
@@ -780,7 +780,7 @@
         <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="9.50" vehext="4" yellow="4.50" red="4" name="6"/>
         <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="9.50" vehext="4" yellow="3" red="2.50" name="7"/>
         <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="24.50" vehext="4" yellow="4" red="3.50" name="8"/>
-        <param key="barrier2Phases" value="6"/>
+        <param key="barrier2Phases" value="2,6"/>
         <param key="barrierPhases" value="4,8"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
@@ -799,7 +799,7 @@
         <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="5.50" vehext="4" yellow="4.50" red="4" name="6"/>
         <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="6.50" vehext="4" yellow="3" red="2.50" name="7"/>
         <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="14.50" vehext="4" yellow="4" red="3.50" name="8"/>
-        <param key="barrier2Phases" value="6"/>
+        <param key="barrier2Phases" value="2,6"/>
         <param key="barrierPhases" value="4,8"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
