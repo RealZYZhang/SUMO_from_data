@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="SR1-3-NEMA.net.xml" />
+        <route-files value="SR1-3_volume_trips.xml" />
+    </input>
+
+    <output>
+        <statistic-output value="SR1-3-NEMA-output-stats.xml" />
+    </output>
+
+    <processing>
+        <ignore-junction-blocker value="60" />
+        <time-to-teleport value="-1" />
+        <default.carfollowmodel value="IDM" />
+    </processing>
+    <report>
+        <duration-log.statistics value="true" />
+    </report>
+
+</configuration>
