@@ -776,7 +776,7 @@
         <phase duration="90" state="rrrGGGrrrrrrrrr" minDur="7" maxDur="47.50" vehext="4" yellow="3.50" red="2" name="2"/>
         <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="5" maxDur="8.50" vehext="4" yellow="3" red="3.50" name="3"/>
         <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="24.50" vehext="4" yellow="4" red="3.50" name="4"/>
-        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="59.50" vehext="4" yellow="3.50" red="2" name="5"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="49.50" vehext="4" yellow="3.50" red="2" name="5"/>
         <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="9.50" vehext="4" yellow="4.50" red="4" name="6"/>
         <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="9.50" vehext="4" yellow="3" red="2.50" name="7"/>
         <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="24.50" vehext="4" yellow="4" red="3.50" name="8"/>
@@ -794,7 +794,7 @@
         <phase duration="90" state="rrrrrrrrrrrrrGG" minDur="5" maxDur="10" vehext="4" yellow="4" red="4" name="1"/>
         <phase duration="90" state="rrrGGGrrrrrrrrr" minDur="7" maxDur="52.50" vehext="4" yellow="3.50" red="2" name="2"/>
         <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="5" maxDur="6.50" vehext="4" yellow="3" red="3.50" name="3"/>
-        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="14.50" vehext="4" yellow="4" red="3.50" name="4"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="13.50" vehext="4" yellow="4" red="3.50" name="4"/>
         <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="56.50" vehext="4" yellow="3.50" red="2" name="5"/>
         <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="5.50" vehext="4" yellow="4.50" red="4" name="6"/>
         <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="6.50" vehext="4" yellow="3" red="2.50" name="7"/>
@@ -815,12 +815,12 @@
         <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="25" vehext="3" yellow="3" red="2" name="4"/>
         <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="103.50" vehext="6" yellow="4.50" red="2" name="6"/>
         <param key="barrier2Phases" value="2,6"/>
-        <param key="barrierPhases" value="4"/>
+        <param key="barrierPhases" value="4,4"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
         <param key="maxRecall" value="2,6"/>
         <param key="ring1" value="1,2,0,4"/>
-        <param key="ring2" value="0,6,0,0"/>
+        <param key="ring2" value="0,6,0,4"/>
         <param key="show-detectors" value="true"/>
         <param key="total-cycle-length" value="140"/>
     </tlLogic>
@@ -830,12 +830,12 @@
         <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="15" vehext="3" yellow="3" red="2" name="4"/>
         <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="83.50" vehext="6" yellow="4.50" red="2" name="6"/>
         <param key="barrier2Phases" value="2,6"/>
-        <param key="barrierPhases" value="4"/>
+        <param key="barrierPhases" value="4,4"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
         <param key="maxRecall" value="2,6"/>
         <param key="ring1" value="1,2,0,4"/>
-        <param key="ring2" value="0,6,0,0"/>
+        <param key="ring2" value="0,6,0,4"/>
         <param key="show-detectors" value="true"/>
         <param key="total-cycle-length" value="110"/>
     </tlLogic>
@@ -845,12 +845,12 @@
         <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="15" vehext="3" yellow="3" red="2" name="4"/>
         <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="83.50" vehext="6" yellow="4.50" red="2" name="6"/>
         <param key="barrier2Phases" value="2,6"/>
-        <param key="barrierPhases" value="4"/>
+        <param key="barrierPhases" value="4,4"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
         <param key="maxRecall" value="2,6"/>
         <param key="ring1" value="1,2,0,4"/>
-        <param key="ring2" value="0,6,0,0"/>
+        <param key="ring2" value="0,6,0,4"/>
         <param key="show-detectors" value="true"/>
         <param key="total-cycle-length" value="110"/>
     </tlLogic>
@@ -860,12 +860,12 @@
         <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="20" vehext="3" yellow="3" red="2" name="4"/>
         <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="88.50" vehext="6" yellow="4.50" red="2" name="6"/>
         <param key="barrier2Phases" value="2,6"/>
-        <param key="barrierPhases" value="4"/>
+        <param key="barrierPhases" value="4,4"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
         <param key="maxRecall" value="2,6"/>
         <param key="ring1" value="1,2,0,4"/>
-        <param key="ring2" value="0,6,0,0"/>
+        <param key="ring2" value="0,6,0,4"/>
         <param key="show-detectors" value="true"/>
         <param key="total-cycle-length" value="120"/>
     </tlLogic>
@@ -875,12 +875,12 @@
         <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="15" vehext="3" yellow="3" red="2" name="4"/>
         <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="83.50" vehext="6" yellow="4.50" red="2" name="6"/>
         <param key="barrier2Phases" value="2,6"/>
-        <param key="barrierPhases" value="4"/>
+        <param key="barrierPhases" value="4,4"/>
         <param key="controllerType" value="TS2"/>
         <param key="coordinate-mode" value="true"/>
         <param key="maxRecall" value="2,6"/>
         <param key="ring1" value="1,2,0,4"/>
-        <param key="ring2" value="0,6,0,0"/>
+        <param key="ring2" value="0,6,0,4"/>
         <param key="show-detectors" value="true"/>
         <param key="total-cycle-length" value="110"/>
     </tlLogic>
