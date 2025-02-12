@@ -4,7 +4,7 @@
     <input>
         <net-file value="SR1-3.net.xml" />
         <route-files value="SR1-3_volume_trips.xml" />
-        <additional-files value="SR1-3_timing.add.xml"/>
+        <additional-files value="SR1-3_timing.add.xml" />
     </input>
 
     <output>

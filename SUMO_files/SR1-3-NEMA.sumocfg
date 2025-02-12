@@ -4,6 +4,7 @@
     <input>
         <net-file value="SR1-3-NEMA.net.xml" />
         <route-files value="SR1-3_volume_trips.xml" />
+        <additional-files value="SR1-3_timing-NEMA.add.xml" />
     </input>
 
     <output>

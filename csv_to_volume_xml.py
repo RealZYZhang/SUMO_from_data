@@ -136,8 +136,9 @@ def main():
         print(f"Successfully generated vehicle trips file: {trips_output}")
         
         # Update SUMO config with new trips file
-        update_sumo_config(os.path.basename(trips_output))
-        
+        update_sumo_config(os.path.basename(trips_output), config_file='SUMO_files/SR1-3.sumocfg')
+        update_sumo_config(os.path.basename(trips_output), config_file='SUMO_files/SR1-3-NEMA.sumocfg')
+
     except subprocess.CalledProcessError as e:
         print(f"\nError running routeSampler: {e}")
     except FileNotFoundError:

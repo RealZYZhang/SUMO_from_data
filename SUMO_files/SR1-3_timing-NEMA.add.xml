@@ -1,0 +1,335 @@
+<additional>
+
+    <tlLogic id="S1" type="NEMA" programID="1" offset="107">
+        <phase duration="90" state="GrrrrrrrrrrrrGG" minDur="8" maxDur="8.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrrGGrrrrrrrrrr" minDur="10" maxDur="76.50" vehext="5" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="8" maxDur="10.50" vehext="3" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="rrrrrrGGGgrrrrr" minDur="8" maxDur="19" vehext="3" yellow="3.50" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrGrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="4" red="3" name="5"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="10" maxDur="76.50" vehext="5" yellow="3.50" red="2" name="6"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="8" maxDur="19" vehext="3" yellow="3" red="3" name="7"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="8" maxDur="11" vehext="3" yellow="3.50" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="140"/>
+    </tlLogic>
+    <tlLogic id="S1" type="NEMA" programID="2" offset="48">
+        <phase duration="90" state="GrrrrrrrrrrrrGG" minDur="8" maxDur="8.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrrGGrrrrrrrrrr" minDur="10" maxDur="56.50" vehext="5" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="8" maxDur="11.50" vehext="3" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="rrrrrrGGGgrrrrr" minDur="8" maxDur="8" vehext="3" yellow="3.50" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrGrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="4" red="3" name="5"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="10" maxDur="56.50" vehext="5" yellow="3.50" red="2" name="6"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="8" maxDur="12" vehext="3" yellow="3" red="3" name="7"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="3.50" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S1" type="NEMA" programID="3" offset="51">
+        <phase duration="90" state="GrrrrrrrrrrrrGG" minDur="8" maxDur="8.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrrGGrrrrrrrrrr" minDur="10" maxDur="57.50" vehext="5" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="8" maxDur="10.50" vehext="3" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="rrrrrrGGGgrrrrr" minDur="8" maxDur="8" vehext="3" yellow="3.50" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrGrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="4" red="3" name="5"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="10" maxDur="57.50" vehext="5" yellow="3.50" red="2" name="6"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="8" maxDur="11" vehext="3" yellow="3" red="3" name="7"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="3.50" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S1" type="NEMA" programID="4" offset="65">
+        <phase duration="90" state="GrrrrrrrrrrrrGG" minDur="8" maxDur="8.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrrGGrrrrrrrrrr" minDur="10" maxDur="63.50" vehext="5" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="8" maxDur="10.50" vehext="3" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="rrrrrrGGGgrrrrr" minDur="8" maxDur="12" vehext="3" yellow="3.50" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrGrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="4" red="3" name="5"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="10" maxDur="63.50" vehext="5" yellow="3.50" red="2" name="6"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="8" maxDur="15" vehext="3" yellow="3" red="3" name="7"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="3.50" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="120"/>
+    </tlLogic>
+    <tlLogic id="S1" type="NEMA" programID="5" offset="107">
+        <phase duration="90" state="GrrrrrrrrrrrrGG" minDur="8" maxDur="8.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrrGGrrrrrrrrrr" minDur="10" maxDur="57.50" vehext="5" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="8" maxDur="10.50" vehext="3" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="rrrrrrGGGgrrrrr" minDur="8" maxDur="8" vehext="3" yellow="3.50" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrGrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="4" red="3" name="5"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="10" maxDur="57.50" vehext="5" yellow="3.50" red="2" name="6"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="8" maxDur="11" vehext="3" yellow="3" red="3" name="7"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="8" maxDur="8" vehext="3" yellow="3.50" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S2" type="NEMA" programID="1" offset="109">
+        <phase duration="90" state="rrrrrrrrrrrrrGG" minDur="5" maxDur="10" vehext="4" yellow="4" red="4" name="1"/>
+        <phase duration="90" state="rrrGGGrrrrrrrrr" minDur="7" maxDur="81.50" vehext="4" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="5" maxDur="8.50" vehext="4" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="12.50" vehext="4" yellow="4" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="79.50" vehext="4" yellow="3.50" red="2" name="5"/>
+        <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="11.50" vehext="4" yellow="4.50" red="4" name="6"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="9.50" vehext="4" yellow="3" red="2.50" name="7"/>
+        <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="12.50" vehext="4" yellow="4" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="140"/>
+    </tlLogic>
+    <tlLogic id="S2" type="NEMA" programID="2" offset="20">
+        <phase duration="90" state="rrrrrrrrrrrrrGG" minDur="5" maxDur="7" vehext="4" yellow="4" red="4" name="1"/>
+        <phase duration="90" state="rrrGGGrrrrrrrrr" minDur="7" maxDur="53.50" vehext="4" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="5" maxDur="8.50" vehext="4" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="13.50" vehext="4" yellow="4" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="53.50" vehext="4" yellow="3.50" red="2" name="5"/>
+        <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="6.50" vehext="4" yellow="4.50" red="4" name="6"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="9.50" vehext="4" yellow="3" red="2.50" name="7"/>
+        <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="13.50" vehext="4" yellow="4" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S2" type="NEMA" programID="3" offset="109">
+        <phase duration="90" state="rrrrrrrrrrrrrGG" minDur="5" maxDur="7" vehext="4" yellow="4" red="4" name="1"/>
+        <phase duration="90" state="rrrGGGrrrrrrrrr" minDur="7" maxDur="47.50" vehext="4" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="5" maxDur="8.50" vehext="4" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="19.50" vehext="4" yellow="4" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="44.50" vehext="4" yellow="3.50" red="2" name="5"/>
+        <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="9.50" vehext="4" yellow="4.50" red="4" name="6"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="11.50" vehext="4" yellow="3" red="2.50" name="7"/>
+        <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="17.50" vehext="4" yellow="4" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S2" type="NEMA" programID="4" offset="4">
+        <phase duration="90" state="rrrrrrrrrrrrrGG" minDur="5" maxDur="12" vehext="4" yellow="4" red="4" name="1"/>
+        <phase duration="90" state="rrrGGGrrrrrrrrr" minDur="7" maxDur="47.50" vehext="4" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="5" maxDur="8.50" vehext="4" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="24.50" vehext="4" yellow="4" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="49.50" vehext="4" yellow="3.50" red="2" name="5"/>
+        <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="9.50" vehext="4" yellow="4.50" red="4" name="6"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="9.50" vehext="4" yellow="3" red="2.50" name="7"/>
+        <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="24.50" vehext="4" yellow="4" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="120"/>
+    </tlLogic>
+    <tlLogic id="S2" type="NEMA" programID="5" offset="8">
+        <phase duration="90" state="rrrrrrrrrrrrrGG" minDur="5" maxDur="10" vehext="4" yellow="4" red="4" name="1"/>
+        <phase duration="90" state="rrrGGGrrrrrrrrr" minDur="7" maxDur="52.50" vehext="4" yellow="3.50" red="2" name="2"/>
+        <phase duration="90" state="rrrrrrrrrGrrrrr" minDur="5" maxDur="6.50" vehext="4" yellow="3" red="3.50" name="3"/>
+        <phase duration="90" state="GGgrrrrrrrrrrrr" minDur="5" maxDur="13.50" vehext="4" yellow="4" red="3.50" name="4"/>
+        <phase duration="90" state="rrrrrrrrrrGGGrr" minDur="7" maxDur="56.50" vehext="4" yellow="3.50" red="2" name="5"/>
+        <phase duration="90" state="rrrrrrGrrrrrrrr" minDur="5" maxDur="5.50" vehext="4" yellow="4.50" red="4" name="6"/>
+        <phase duration="90" state="rrGrrrrrrrrrrrr" minDur="4" maxDur="6.50" vehext="4" yellow="3" red="2.50" name="7"/>
+        <phase duration="90" state="rrrrrrrGGgrrrrr" minDur="4" maxDur="14.50" vehext="4" yellow="4" red="3.50" name="8"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2"/>
+        <param key="ring1" value="1,2,3,4"/>
+        <param key="ring2" value="5,6,7,8"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S3" type="NEMA" programID="1" offset="63">
+        <phase duration="90" state="GrrrrrrG" minDur="8" maxDur="8.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrGGGrrr" minDur="15" maxDur="88" vehext="6" yellow="4.50" red="2.50" name="2"/>
+        <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="25" vehext="3" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="103.50" vehext="6" yellow="4.50" red="2" name="6"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,4"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,0,4"/>
+        <param key="ring2" value="0,6,0,4"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="140"/>
+    </tlLogic>
+    <tlLogic id="S3" type="NEMA" programID="2" offset="21">
+        <phase duration="90" state="GrrrrrrG" minDur="8" maxDur="8.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrGGGrrr" minDur="15" maxDur="68" vehext="6" yellow="4.50" red="2.50" name="2"/>
+        <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="15" vehext="3" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="83.50" vehext="6" yellow="4.50" red="2" name="6"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,4"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,0,4"/>
+        <param key="ring2" value="0,6,0,4"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S3" type="NEMA" programID="3" offset="21">
+        <phase duration="90" state="GrrrrrrG" minDur="8" maxDur="11.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrGGGrrr" minDur="15" maxDur="65" vehext="6" yellow="4.50" red="2.50" name="2"/>
+        <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="15" vehext="3" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="83.50" vehext="6" yellow="4.50" red="2" name="6"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,4"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,0,4"/>
+        <param key="ring2" value="0,6,0,4"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+    <tlLogic id="S3" type="NEMA" programID="4" offset="21">
+        <phase duration="90" state="GrrrrrrG" minDur="8" maxDur="10.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrGGGrrr" minDur="15" maxDur="71" vehext="6" yellow="4.50" red="2.50" name="2"/>
+        <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="20" vehext="3" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="88.50" vehext="6" yellow="4.50" red="2" name="6"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,4"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,0,4"/>
+        <param key="ring2" value="0,6,0,4"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="120"/>
+    </tlLogic>
+    <tlLogic id="S3" type="NEMA" programID="5" offset="108">
+        <phase duration="90" state="GrrrrrrG" minDur="8" maxDur="13.50" vehext="3" yellow="4" red="2.50" name="1"/>
+        <phase duration="90" state="rrGGGrrr" minDur="15" maxDur="63" vehext="6" yellow="4.50" red="2.50" name="2"/>
+        <phase duration="90" state="GGrrrrrr" minDur="10" maxDur="15" vehext="3" yellow="3" red="2" name="4"/>
+        <phase duration="90" state="rrrrrGGg" minDur="15" maxDur="83.50" vehext="6" yellow="4.50" red="2" name="6"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,4"/>
+        <param key="controllerType" value="TS2"/>
+        <param key="coordinate-mode" value="true"/>
+        <param key="maxRecall" value="2,6"/>
+        <param key="ring1" value="1,2,0,4"/>
+        <param key="ring2" value="0,6,0,4"/>
+        <param key="show-detectors" value="true"/>
+        <param key="total-cycle-length" value="110"/>
+    </tlLogic>
+
+	<WAUT refTime="0" period="86400" id="S1-weekday" startProg="off">
+    <wautSwitch time="18000" to="1"/>    <!-- 5am, am peak -->
+    <wautSwitch time="32400" to="2"/>  <!--	9am, midday -->
+    <wautSwitch time="45000" to="3"/>   <!-- 12:30pm, school -->
+	<wautSwitch time="52200" to="4"/>   <!-- 2:30pm, pm peak -->
+    <wautSwitch time="66600" to="5"/>   <!-- 6:30pm, off peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S1-SAT" startProg="off">
+    <wautSwitch time="25200" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S1-SUN" startProg="off">
+    <wautSwitch time="28800" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="75600" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+  	<wautJunction junctionID="S1" wautID="S1-weekday">
+	</wautJunction>
+
+	<WAUT refTime="0" period="86400" id="S2-weekday" startProg="off">
+    <wautSwitch time="21600" to="1"/>    <!-- 6am, am peak -->
+    <wautSwitch time="32400" to="2"/>  <!--	9am, midday -->
+    <wautSwitch time="45000" to="3"/>   <!-- 12:30pm, school -->
+	<wautSwitch time="52200" to="4"/>   <!-- 2:30pm, pm peak -->
+    <wautSwitch time="66600" to="5"/>   <!-- 6:30pm, off peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S2-SAT" startProg="off">
+    <wautSwitch time="25200" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S2-SUN" startProg="off">
+    <wautSwitch time="28800" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="75600" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+	<wautJunction junctionID="S2" wautID="S2-weekday">
+	</wautJunction>
+
+	<WAUT refTime="0" period="86400" id="S3-weekday" startProg="off">
+    <wautSwitch time="21600" to="1"/>    <!-- 6am, am peak -->
+    <wautSwitch time="32400" to="2"/>  <!--	9am, midday -->
+    <wautSwitch time="45000" to="3"/>   <!-- 12:30pm, school -->
+	<wautSwitch time="52200" to="4"/>   <!-- 2:30pm, pm peak -->
+    <wautSwitch time="66600" to="5"/>   <!-- 6:30pm, off peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S3-SAT" startProg="off">
+    <wautSwitch time="25200" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="79200" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+    <WAUT refTime="0" period="86400" id="S3-SUN" startProg="off">
+    <wautSwitch time="28800" to="2"/>    <!-- 5am, am peak -->
+	<wautSwitch time="75600" to="off"/>   <!-- 10:00pm, light off -->
+	</WAUT>
+
+	<wautJunction junctionID="S3" wautID="S3-weekday">
+	</wautJunction>
+
+</additional>
